@@ -20,3 +20,25 @@ main{
   background-color: blue;
   color: white;
 }
+footer{
+    width: 200px;
+    margin: auto;
+    bottom: 0px;
+    position: fixed;
+}
+.site_sidebar_widget{
+    width: 250px;
+    right: 0px;
+    position: absolute;
+}
+.category_footer_single{
+    width: 250px;
+    margin: auto;
+}
+.footer a{
+    width: 200px;
+    margin: auto;
+    bottom: 0px;
+    left: 250px;
+    position: fixed;
+}

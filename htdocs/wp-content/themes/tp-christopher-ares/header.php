@@ -17,6 +17,3 @@
             'theme_location' => 'main'
         ]) ?>
 <main>
-    <aside class="site_sidebar">
-        <?php dynamic_sidebar('tp-sidebar'); ?>
-    </aside>
