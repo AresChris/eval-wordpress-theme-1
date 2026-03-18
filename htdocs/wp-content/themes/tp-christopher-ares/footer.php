@@ -10,8 +10,9 @@
 <div class="category_footer_single">
     <?php
     if(is_single()){
-        $category = " Catégorie : " . the_category();
-        echo 'Catégorie : ' . the_category();
+        ?>
+        <p>Catégorie : <?= the_category($separator =', ')?></p>
+        <?php
     }
 ?>
 </div>

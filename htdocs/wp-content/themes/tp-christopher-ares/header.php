@@ -11,9 +11,13 @@
 <header>
     <img src="http://localhost/wp-content/uploads/2026/03/banner.jpg" width="100%" height="auto">
 </header>
- <body <?php body_class(); ?>>
-        <?php wp_body_open(); ?>
-        <?php wp_nav_menu([
-            'theme_location' => 'main'
-        ]) ?>
-<main>
+
+<body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
+    <?php wp_nav_menu([
+        'theme_location' => 'main'
+    ]) ?>
+    <main>
+        <aside class="site_sidebar">
+            <?php dynamic_sidebar('tp-sidebar'); ?>
+        </aside>
